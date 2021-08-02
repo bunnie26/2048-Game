@@ -17,7 +17,7 @@
 //   &__action {
 //     margin-top: 40px;
 //   }
- 
+
 // }
 // .container  h2{
 //   color:white;
@@ -29,8 +29,6 @@
 
 // }
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -38,11 +36,10 @@
 }
 body {
   background: #4e54c8;
-  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
 }
 .container {
   background: #4e54c8;
-  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+
   // background: #010b13;
   display: flex;
   flex-direction: column;
@@ -55,13 +52,11 @@ body {
     margin-top: 40px;
   }
 }
-.container  h2{
-  color:white;
-  font-family: 'Abril Fatface', cursive;
-  font-family: 'Acme', sans-serif;
+.container h2 {
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Acme", sans-serif;
   font-size: 40px;
   margin-top: 20px;
   letter-spacing: 0.1em;
-
 }
-
