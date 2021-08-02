@@ -21,7 +21,7 @@ function App() {
     [0, 0, 0, 0],
     [0, 0, 0, 0],
     [0, 0, 0, 0],
-    [0, 0, 0, 0]
+    [0, 0, 0, 0],
   ];
   const [data, setData] = useLocalStorage("data", INITIAL_DATA);
   const [newGame, setNewGame] = useLocalStorage("newGame", true);
@@ -35,9 +35,10 @@ function App() {
     "replayStatus",
     false
   );
+  window.onunload = () => setReplayStatus(false);
   const [popupStatus, setPopupStatus] = useState({
     visible: false,
-    message: ""
+    message: "",
   });
   // Inititalize
   const initialize = () => {
@@ -439,7 +440,6 @@ function App() {
       <div className="container">
         {/* <h2>2048 GAME</h2> */}
         <Board
-        
           data={data}
           score={score}
           best={best}
@@ -461,12 +461,12 @@ function App() {
             buttons={[
               {
                 label: "ok",
-                onClick: onClickOk
+                onClick: onClickOk,
               },
               {
                 label: isWon ? "new game" : "try again",
-                onClick: onClickTry
-              }
+                onClick: onClickTry,
+              },
             ]}
           />
         )}
