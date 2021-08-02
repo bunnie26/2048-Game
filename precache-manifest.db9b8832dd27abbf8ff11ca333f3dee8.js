@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec7ae4f1d5a8d067ef8ae4858d42ae6c",
+    "revision": "7d920551e91c9fef30b4ce8a03660df1",
     "url": "/2048-Game/index.html"
   },
   {
-    "revision": "ae594c00b22f6be1447d",
+    "revision": "1798819d2680b363b289",
     "url": "/2048-Game/static/css/main.03124a38.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/2048-Game/static/js/2.01cc639e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ae594c00b22f6be1447d",
-    "url": "/2048-Game/static/js/main.bf9af3aa.chunk.js"
+    "revision": "1798819d2680b363b289",
+    "url": "/2048-Game/static/js/main.de60f5fb.chunk.js"
   },
   {
     "revision": "1f331b5b65612f928579",
