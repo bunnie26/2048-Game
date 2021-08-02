@@ -11,7 +11,13 @@ function FrontPage() {
         <span id="gg">-Game</span>
       </h1>
 
-      <button>Scroll down to play !</button>
+      <button
+        onClick={() => {
+          window.location.href = "#BunnieBoard";
+        }}
+      >
+        Scroll down to play !
+      </button>
       <div className="instructions">
         <h2>HOW TO PLAY:</h2>
         <div className="demo">

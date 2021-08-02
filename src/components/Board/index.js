@@ -5,7 +5,7 @@ import "./Board.scss";
 
 export default function Board({ data, score, best, onClickNewGame }) {
   return (
-    <div className="board">
+    <div className="board" id="BunnieBoard">
       <Header score={score} best={best} onClickNewGame={onClickNewGame} />
       <div className="board__body">
         {data.map((row, rowIndex) => {
