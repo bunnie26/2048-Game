@@ -404,6 +404,7 @@ function App() {
   };
 
   const handleKeyDown = (event) => {
+    event.preventDefault();
     switch (event.keyCode) {
       case UP:
         swipeUp();
